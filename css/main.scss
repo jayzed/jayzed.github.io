@@ -1,0 +1,53 @@
+---
+---
+
+@import 'vendor/bootstrap.min';
+
+hr.space {
+	background: none repeat scroll 0 0 #fff;
+	color: #fff;
+	visibility: hidden;
+}
+
+
+a {
+
+	i {
+		color: #333333;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+p {
+	line-height: 35px;
+}
+
+.navbar-brand {
+	margin-top: 5px;
+	font-size: 30px;
+}
+
+.navbar-right {
+	margin-top: 20px;
+}
+
+.portfolio-item {
+	@extend .col-sm-4;
+	margin-bottom: 50px;
+}
+
+.portfolio-item-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0;
+	display: block;
+}
+
+.portfolio-item-description{
+	font-size: 14px;
+}
