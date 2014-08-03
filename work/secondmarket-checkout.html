@@ -4,37 +4,122 @@ layout: default
 
 <div class="row">
   <div class="col-sm-8 col-sm-offset-2">
-    <h1>Divvy</h1>
-    <p>A mobile application to help parents manage their kids carpool schedules, and also gives the parents security that their child arrived safely.</p>
+    <h1>SecondMarket Checkout</h1>
+    <a href="https://www.secondmarket.com" class="small">SecondMarket</a>
     
-    <h2>Selected Process</h2>
+    <h2>Background</h2>
     <p>
-      We began the discovery process by conducting interviews with a couple of parents and found that managing carpool schedules is a difficult task. 
-      Parents wanted more information about where their kids are, but did not want to be obtrusive.
+      Investment documents are complicated. They are commonly dozens of pages long and written in legalese.
+      SecondMarket noticed this problem when they created a fund for accredited investors to invest in Facebook before the IPO. The error rate while filling out the documents was an astonishing <strong>300%</strong> - meaning the document had to go back and forth 3 times on average between SecondMarket and the investor before being correctly completed. This completely offline process was extremely inefficient, time consuming and costly.
+    </p>
+
+    <h2>My Role</h2>
+    <p>
+      Since April 2013 I have been the lead UX designer on this product and have done all aspects of the UX process. 
+      For example, talking to customers to uncover their pain points, working with product managers and business stakeholders
+      to determine priorities and potential features, creating HTML prototypes, and working closely with the engineers
+      while features were being implemented.
+    </p>
+
+    <h2>The Product</h2>
+    <p>
+      SecondMarket Checkout is an online workflow for investors to make it much easier to fill out investment documents. 
+      Investors complete a wizard where they enter all of their necessary information which automatically populates a document for them to sign.
+      In 2013 alone, thousands of orders were created and processed online.
     </p>
 
     <hr class="space">
-    <img src="/images/divvy-paper-prototypes.png" class="img-responsive">
-    <hr class="space">
+    <div id="checkout-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#checkout-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#checkout-carousel" data-slide-to="1"></li>
+        <li data-target="#checkout-carousel" data-slide-to="2"></li>
+      </ol>
 
-    <h3>Wireframing and Iteration</h3>
-    <p>
-      With all that in mind, we came up with preliminary wireframes on a whiteboard, then transferred it to a paper prototype. 
-      We then conducted think-aloud studies on the paper prototype to see where we could still improve. 
-      The design was then iterated upon a number of times, both to increase usability and enhance the visual design.
-      We began with a paper prototype, moved to an interactive prototype in Axure, and then did a number of iterations in Photoshop before arriving at the final design. 
-    </p>
-    
-    <img src="/images/divvy-evolution.png" class="img-responsive">
-    <hr class="space">
-    
-    <div class="small">
-      <h5><strong>Project Details</strong></h5>
-      <div>Date: Spring 2012</div>
-      <div>Class: Interaction Design Studio</div>
-      <div>Team: Linda Le, Nir Rachmel</div>
-      <div>Skills: Interviewing, Personas, Paper Prototyping, Think-Aloud Testing, Interaction Design, Wireframing </div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/images/checkout-amount.png" class="img-responsive">
+        </div>
+        <div class="item">
+          <img src="/images/checkout-personal-info.png" class="img-responsive">
+        </div>
+
+        <div class="item">
+          <img src="/images/checkout-bank-info.png" class="img-responsive">
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#checkout-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#checkout-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
     </div>
+    <hr class="space">
 
+    <p>
+      There are also multiple views for different stakeholders:
+    </p>
+
+    <ul>
+      <li>An Investor view to complete the investment flow and sign subscription documents</li>
+      <li>An Internal view for SecondMarket employees to manage orders going through the system</li>
+      <li>"Observer View" for fund administrators to see the funnel of investors through the flow.</li>
+    </ul>
+
+    <p> 
+      All of these different views need to be considered when making adjustments
+      to ensure the views achieve the goal of each persona.
+    </p>
+
+
+    <h2>Key Takeaways</h2>
+    <hr class="space">
+    <ul>
+      <li>
+        <strong>Focus on goals and success metrics to make data-driven decisions</strong>
+        <p>
+          All elements on a page should have a purpose.
+          Once the sucess metrics are met then you can look at the data to determine if a design is successful.
+        </p>
+      </li>
+
+      <li>
+        <strong>Need to consider both the details and the whole picture when working on a product</strong>
+        <p>
+          Even when adjusting something as small as a label, each piece of the flow needs to be thought about in the overall context.
+          How does the use user get to this screen? What have they already seen? What is the next step?
+        </p>
+      </li>
+
+      <li>
+        <strong>Need to think about both first time users and repeat users</strong>
+        <p>
+          For this product we have many people who invested multiple times. Once all of their information is in the system we tried to make it as easy as possible to 
+          invest a second time without having to input any additional information. 
+        </p>
+      </li>
+
+      <li>
+        <strong>Need to understand both user needs and business processes</strong>
+        <p>
+          While our main flow was focused on investors, the product would be unsuccessful if the SecondMarket team struggled to manage the orders. We spent
+          a lot of time optimizing the views for SecondMarket users, increasing effeciency so that hundreds of investors could be managed by a single person. 
+        </p>
+      </li>
+
+      <li>
+        <strong>Support Tickets = Free Feedback</strong>
+        <p>
+          Support tickets are extremely valuable pieces of data. If someone is taking the time to tell you there is a problem or they don't understand anything,
+          it's probably a good indication where improvements can be made.
+        </p>
+      </li>
+    </ul>
+    
   </div>
 </div>
