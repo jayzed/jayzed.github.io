@@ -2,13 +2,17 @@
 ---
 
 @import 'vendor/bootstrap.min';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
 
 hr.space {
 	background: none repeat scroll 0 0 #fff;
 	color: #fff;
 	visibility: hidden;
 }
-
 
 a {
 
@@ -40,7 +44,6 @@ p {
 }
 
 .portfolio-item-title {
-	font-family: 'Roboto Slab', serif;
 	font-size: 18px;
 	color: #000000;
 	font-weight: bold;
